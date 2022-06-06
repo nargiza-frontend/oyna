@@ -1,4 +1,4 @@
-/* CUSTOM PROPS */
+/* CUSTOM-PROPS */
 :root {
 
 }
@@ -37,6 +37,11 @@ img {
   height: auto;
 }
 
+/* FOCUS-STYLES  */
+*:focus {
+  outline: 3px dashed var(black);
+  outline-offset: 3px;
+}
 
 /* CONTAINER  */
 .container {
@@ -48,6 +53,7 @@ img {
   margin-right: auto;
 }
 
+/* VISUALLY-HIDDEN  */
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -63,16 +69,4 @@ img {
 /* MAIN-CONTENT  */
 .main-content {
   flex-grow: 1;
-}
-
-
-/* RETINA-BG  */
-@media
-only screen and (-webkit-min-device-pixel-ratio: 2),
-only screen and (   min--moz-device-pixel-ratio: 2),
-only screen and (     -o-min-device-pixel-ratio: 2/1),
-only screen and (        min-device-pixel-ratio: 2),
-only screen and (                min-resolution: 192dpi),
-only screen and (                min-resolution: 2dppx) {
-
 }
