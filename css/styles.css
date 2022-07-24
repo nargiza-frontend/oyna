@@ -37,6 +37,7 @@ img {
   height: auto;
 }
 
+
 /* FOCUS-STYLES  */
 *:focus {
   outline: 3px dashed var(black);
@@ -52,6 +53,7 @@ img {
   margin-left: auto;
   margin-right: auto;
 }
+
 
 /* VISUALLY-HIDDEN  */
 .visually-hidden {
