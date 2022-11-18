@@ -72,3 +72,41 @@ img {
 .main-content {
   flex-grow: 1;
 }
+.wall{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.block{
+  display: flex;
+  align-items: center;
+  border: 20px solid red;
+  width: 600px;
+  height: 600px;
+  height: 100%;
+  background-image: url(../img/coffee-width-cake.jpg);
+}
+.block-left{
+  width: 300px;
+  height: 600px;
+  border: 5px solid blue;
+  box-sizing: border-box;
+  background-color:antiquewhite ;
+  transition: transform 0.3s ease;
+  transform-origin: left center;
+}
+.block-left:hover{
+  transform: perspective(1000px) rotateY(-120deg);
+}
+.block-right{
+  border: 5px solid blue;
+  width: 300px;
+  height: 600px;
+  box-sizing: border-box;
+  background-color:antiquewhite ;
+  transition: transform 0.5s ease;
+  transform-origin: right center;
+}
+.block-right:hover{
+  transform: perspective(1000px) rotateY(120deg);
+}
