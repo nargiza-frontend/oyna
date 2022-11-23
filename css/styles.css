@@ -88,7 +88,7 @@ img {
   background-image: url(../img/coffee-width-cake.jpg);
 }
 .block-left{
-  width: 300px;
+  width: 280px;
   height: 600px;
   border: 15px ridge rgb(116, 116, 171);
   box-sizing: border-box;
@@ -96,18 +96,18 @@ img {
   transition: transform 0.5s ease;
   transform-origin: left center;
 }
-.block:hover .block-left{
+.rom:hover .block-left{
   transform: perspective(2000px) rotateY(-120deg);
 }
 .block-right{
   border: 15px ridge rgb(116, 116, 171);
-  width: 300px;
+  width: 280px;
   height: 600px;
   box-sizing: border-box;
   background-color:antiquewhite ;
   transition: transform 0.5s ease;
   transform-origin: right center;
 }
-.block:hover .block-right{
+.rom:hover .block-right{
   transform: perspective(2000px) rotateY(120deg);
 }
